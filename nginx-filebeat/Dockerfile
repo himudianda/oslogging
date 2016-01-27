@@ -2,14 +2,14 @@
 # Filebeat 1.0.1
 
 # Build with:
-# docker build -t <repo-user>/filebeat-nginx-example .
+# docker build -t harshitexablox/filebeat-nginx-example .
 
 # Run with:
 # docker run -p 80:80 -it --link <elk-container-name>:elk \
-#     --name filebeat-nginx-example <repo-user>/filebeat-nginx-example
+#     --name filebeat-nginx-example harshitexablox/filebeat-nginx-example
 
 FROM nginx
-MAINTAINER Sebastien Pujadas http://pujadas.net
+MAINTAINER Harshit Imudianda http://github.com/himudianda
 ENV REFRESHED_AT 2015-11-28
 
 
